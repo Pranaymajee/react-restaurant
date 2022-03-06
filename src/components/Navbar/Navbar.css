@@ -103,6 +103,10 @@
     color:var(--color-white);
 }
 
+.app__navBtn{
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
 @media screen and (max-width: 2000px){
     .app__navbar-logo img{
         width: 200px;
