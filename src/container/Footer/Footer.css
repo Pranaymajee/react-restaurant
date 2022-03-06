@@ -66,6 +66,7 @@
 
 .footer__copyright {
     margin-top: 3rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 2000px) {

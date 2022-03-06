@@ -5,6 +5,8 @@
     align-items: center;
     background: var(--color-black);
     padding: 1rem 2rem;
+    position: fixed;
+    z-index: 99;
 }
 
 .app__navbar-logo{
@@ -15,6 +17,7 @@
 
 .app__navbar-logo img{
     width: 150px;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 .app__navbar-links{

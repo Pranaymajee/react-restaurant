@@ -23,9 +23,9 @@ const Footer = () => (
         <p className="p__opensans">"The best way to find yourself is to lose yourself in the service of others."</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://www.facebook.com/Pranay13101/" target="_blank"><FiFacebook /></a>
+          <a href="https://twitter.com/MyntSlush?s=09" target="_blank"><FiTwitter /></a>
+          <a href="https://www.instagram.com/pranay_majee/" target="_blank"><FiInstagram /></a>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
     
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved</p>
+      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
       <p className="p__opensans">Developed by Pranay in React</p>
     </div>
   </div>

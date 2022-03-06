@@ -28,4 +28,8 @@
         line-height: 100px;
         font-size: 70px;
     }
+
+    .app__wrapper_info{
+        padding-top: 2rem;
+    }
 }
